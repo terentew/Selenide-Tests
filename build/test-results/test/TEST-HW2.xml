@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="HW2" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-25T23:35:50" hostname="A109-ПК" time="9.603">
+  <properties/>
+  <testcase name="selenideFormFill()" classname="HW2" time="9.603"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO HW2 - @BeforeAll
+[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 14 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\A109\Репозиторий\build\downloads\1621985750417_8128_14
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (resolved driver for Chrome 90)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\A109\.cache\selenium\chromedriver\win32\90.0.4430.24\chromedriver.exe
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 4787
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мая 26, 2021 2:35:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=90.0.4430.212 Platform=WINDOWS
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 5.20.3
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Create webdriver in current thread 14: ChromeDriver -> ChromeDriver: chrome on WINDOWS (ad80274c7a7009e4ef773e72d7fcf190)
+]]></system-err>
+</testsuite>
