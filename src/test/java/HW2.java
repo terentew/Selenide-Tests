@@ -12,6 +12,8 @@ public class HW2 {
     static Logger log = LoggerFactory.getLogger(HW2.class);
     @BeforeAll
     static void setUpConfig() {
+        String abc="Commit 1";
+
         log.info("@BeforeAll");
         Configuration.startMaximized = true;
     }
