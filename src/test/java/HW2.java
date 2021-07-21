@@ -13,6 +13,7 @@ public class HW2 {
     @BeforeAll
     static void setUpConfig() {
         String abc="Commit 1";
+        String bcd="Commit 2";
 
         log.info("@BeforeAll");
         Configuration.startMaximized = true;
