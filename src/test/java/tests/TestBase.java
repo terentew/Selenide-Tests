@@ -21,10 +21,10 @@ public class TestBase {
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
-        // capabilities.setCapability("enableVNC", true);
-        // capabilities.setCapability("enableVideo", true);
+        capabilities.setCapability("enableVNC", true);
+        capabilities.setCapability("enableVideo", true);
 
-        // Configuration.browserCapabilities = capabilities;
+        Configuration.browserCapabilities = capabilities;
         Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub/";
     }
 
@@ -37,11 +37,11 @@ public class TestBase {
         Attach.browserConsoleLogs();
         closeWebDriver();
 
-         Attach.addVideo(sessionId);
-        }
-
-        public static String getSessionId () {
-            return ((RemoteWebDriver) getWebDriver()).getSessionId().toString();
-        }
-
+        Attach.addVideo(sessionId);
     }
+
+    public static String getSessionId(){
+        return ((RemoteWebDriver) getWebDriver()).getSessionId().toString();
+    }
+
+}
