@@ -48,3 +48,10 @@ tasks.withType(Test) {
         }
     }
 }
+
+task properties_tests(type: Test) {
+
+    println "[build.gradle]: properties tests here"
+    println "[build.gradle]: " + System.getProperty("browser")
+
+}
