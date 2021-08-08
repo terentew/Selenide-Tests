@@ -1,10 +1,6 @@
 package tests;
 
-import com.codeborne.selenide.Configuration;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import java.io.File;
 
@@ -16,7 +12,7 @@ public class HW2 extends TestBase {
 
 
     @Test
-    void selenideFormFill() {
+    void selenideFormFill()  {
         {
             open("https://demoqa.com/automation-practice-form");
             $("#firstName").setValue("FName");
